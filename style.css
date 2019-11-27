@@ -2,3 +2,50 @@ html, body {
     margin: 0;
     padding: 0;
 }
+
+.genres {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+
+div {
+    height: 100px;
+    width: 500px;
+    text-align: center;
+}
+
+.items {
+    padding-top: 40px;
+}
+
+.action {
+    background-color: dodgerblue;
+    flex-grow: 1;
+}
+
+.thriller {
+    background-color: rgb(190,178,178);
+    flex-grow: 10;
+}
+
+.comedy {
+    background-color: rgb(255, 214, 30);
+    flex-grow: 10;
+}
+
+.horror {
+    background-color: black;
+    color: white;
+    flex-grow: 1;
+}
+
+.drama {
+    background-color: darkgrey;
+    flex-grow: 1;
+}
+
+.romance {
+    background-color: red;
+    flex-grow: 1;
+}
